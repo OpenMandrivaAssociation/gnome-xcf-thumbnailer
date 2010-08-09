@@ -1,6 +1,6 @@
 %define name gnome-xcf-thumbnailer
 %define version 1.0
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Thumbnailer for GIMP's own format, XCF files
 Name: %{name}
@@ -15,6 +15,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libpng-devel
 BuildRequires: glib2-devel >= 2.16
 BuildRequires: libGConf2-devel
+BuildRequires: popt-devel
 
 %description
 This creates thumbnail images from Gimp's XCF image files for nautilus and
