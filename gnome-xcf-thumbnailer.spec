@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://download.gnome.org/sources/%name/%{name}-%{version}.tar.bz2
+Patch0: gnome-xcf-thumbnailer-1.0-link.patch
 License: GPLv2
 Group: File tools
 Url: http://www.gnome.org/
@@ -21,6 +22,7 @@ other file managers.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %configure2_5x
