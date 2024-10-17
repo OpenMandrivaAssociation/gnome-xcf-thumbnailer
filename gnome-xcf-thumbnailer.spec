@@ -10,7 +10,7 @@ Source0: http://download.gnome.org/sources/%name/%{name}-%{version}.tar.bz2
 Patch0: gnome-xcf-thumbnailer-1.0-link.patch
 License: GPLv2
 Group: File tools
-Url: http://www.gnome.org/
+Url: https://www.gnome.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libpng-devel
 BuildRequires: glib2-devel >= 2.16
