@@ -12,6 +12,11 @@ License: GPLv2
 Group: File tools
 Url: https://www.gnome.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libpng-devel
 BuildRequires: glib2-devel >= 2.16
 BuildRequires: libGConf2-devel
