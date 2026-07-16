@@ -1,6 +1,6 @@
 %define name gnome-xcf-thumbnailer
 %define version 1.0
-%define release %mkrel 4
+%define release 5
 
 Summary: Thumbnailer for GIMP's own format, XCF files
 Name: %{name}
